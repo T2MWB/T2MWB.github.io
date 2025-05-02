@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="stylesheet" href="static/orderstyle.css">
+<style>
+
+</style>
+</head>
+<title>Vorschlag</title>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/"><img  style="width:150px" src="static/tuelpLogo.png"></a>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <a href="/catalogue.html">Katalog</a>
+                <a href="/order.html">Vorschlag</a>
+            </ul>
+        </nav>
+
+</header>
+<h3 class="intro">VORSCHLAG</h3>
+<div id="form">
+    <input id="order"placeholder="Projektname">
+    <input id="desc"placeholder="Beschreibung">
+    <input id="name"placeholder="Dein Name">
+    <input id="till"placeholder="Bis wann?">
+    <button class="send" onClick="clicked()">Vorschlag senden</button>
+</div>
+<script> 
+    function clicked(){
+        console.log("Hey, du hast den Knopf gedrückt! Bitte warte ein bisschen, bis wir uns diesem Bereich vornehmen..");
+    }
+</script>
+</body>
